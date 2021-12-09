@@ -1,0 +1,37 @@
+{
+	"version": "1.0",
+	"timestamp": "2021-12-07T23:00:02.769Z",
+	"requestContext": {
+		"requestId": "39bf99e8-2f8a-470e-92b9-bd0b1037bc8f",
+		"functionArn": "arn:aws:lambda:ap-northeast-1:868299292241:function:Kibana_GoogleChat_Notification:$LATEST",
+		"condition": "Success",
+		"approximateInvokeCount": 1
+	},
+	"requestPayload": {
+		"Records": [
+			{
+				"EventSource": "aws:sns",
+				"EventVersion": "1.0",
+				"EventSubscriptionArn": "arn:aws:sns:ap-northeast-1:868299292241:kibana-lambda:efa6eb53-ea5d-470b-a9dc-2e786106578c",
+				"Sns": {
+					"Type": "Notification",
+					"MessageId": "fd7c693c-427d-5f60-a3b2-3315abcd9a41",
+					"TopicArn": "arn:aws:sns:ap-northeast-1:868299292241:kibana-lambda",
+					"Subject": "テスト",
+					"Message": "高頻度ワード \n\n2021-12-07T15:00:00.000Z\nbiglobe 13\nモバイル 5\nビッグローブ 4\n格安sim 4\nsim 3\n\n2021-12-06T15:00:00.000Z\nbiglobe 91\nモバイル 28\nmnp 27\nsim 23\n初月 21\n\n2021-12-05T15:00:00.000Z\nbiglobe 94\nモバイル 30\nmnp 27\nsim 26\n初月 23\n\nKinbanaのアラートから実行\nDestinationはLambda ",
+					"Timestamp": "2021-12-07T23:00:00.261Z",
+					"SignatureVersion": "1",
+					"Signature": "Y4nJomx+LJT8VhYbIxBhuzgsQ8RbQb3QJyxqqVP4KeClvMYHbrmme0HJuNsXut3xTOMOeq5ELJWQAFRS/TvjDPbVCEU3AK5lyOD04SlVQwdgbpm7NdhQDOI03w8zoP3Yi1d8wZGV6A4Ypet5IMpOfynSbxcJm9gNhjBY+eyaB+VYoy1GhPS5ZABhsoWi0I+H5LvDBg9+5QGUgfArpiKSexCmtNFoY2K8qP4KrlTGufWr112+wQb71C+iR0HV6hsZGMqx84VcTrdrEUzK7tLyWHU3ZaiEBdyjk0+i6FlFjxEPrFvMS6y2skXRHb2TSoh6M6ENfcjGOvzixnbTIFoCXg==",
+					"SigningCertUrl": "https://sns.ap-northeast-1.amazonaws.com/SimpleNotificationService-7ff5318490ec183fbaddaa2a969abfda.pem",
+					"UnsubscribeUrl": "https://sns.ap-northeast-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-northeast-1:868299292241:kibana-lambda:efa6eb53-ea5d-470b-a9dc-2e786106578c",
+					"MessageAttributes": {}
+				}
+			}
+		]
+	},
+	"responseContext": {
+		"statusCode": 200,
+		"executedVersion": "$LATEST"
+	},
+	"responsePayload": null
+}

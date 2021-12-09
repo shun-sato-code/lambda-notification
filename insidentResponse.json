@@ -1,0 +1,37 @@
+{
+	"version": "1.0",
+	"timestamp": "2021-12-08T08:04:20.645Z",
+	"requestContext": {
+		"requestId": "22a3c8db-333d-46db-b470-bce1c07e11b0",
+		"functionArn": "arn:aws:lambda:ap-northeast-1:868299292241:function:Kibana_GoogleChat_Notification:$LATEST",
+		"condition": "Success",
+		"approximateInvokeCount": 1
+	},
+	"requestPayload": {
+		"Records": [
+			{
+				"EventSource": "aws:sns",
+				"EventVersion": "1.0",
+				"EventSubscriptionArn": "arn:aws:sns:ap-northeast-1:868299292241:kibana-lambda:efa6eb53-ea5d-470b-a9dc-2e786106578c",
+				"Sns": {
+					"Type": "Notification",
+					"MessageId": "238e4de8-bd80-5ee0-b7e2-17c2d4c27510",
+					"TopicArn": "arn:aws:sns:ap-northeast-1:868299292241:kibana-lambda",
+					"Subject": "System Trouble Notification",
+					"Message": "*Masatoshi SANO(aka🦈)*\n{0=2021-12-08T06:59:39.000Z}\n\ndonedoneの有効利用を考えるとusbドングルでルータから繋いでiotの展開はアリなのではなかろうか…(極まる貧乏思考)youtube見ていると使えない使えない言われる128kbpsだがなんだが…無料で常時接続でいつでも電文送受信できる状態が使えないだなんて酷くバチがあたりそうなんだが…\n\nリツイート　0 |　いいね　0 |　フォロワー　 561\nhttps://twitter.com/snmsts/status/1468475342042337281",
+					"Timestamp": "2021-12-08T08:04:18.177Z",
+					"SignatureVersion": "1",
+					"Signature": "ieqVFguNjbEONsCcvliUSQxVHcs3NPmfqhsQFLpp+Bqs2ZGsLUBDDOxPwbxINysHOIXWbPfVvn292cA+zP0N32CU5Nbf8srBfDQTEJOntPomXzupnMvTbOE/ktQMTuVMJLDjwUVbUh9xYgelfgI83tTWIxKZDjdnJaWwnItEmRG1Df6n7Pyc/fQPq/PejoVNZMgeP/EKxl4/sqiTVuBwQ2JrSwIFvXBdQijOwkdRXXnf/8Vs3QNa0V4ICbL8yJTGNGRriDY3p0VOwu4qa+Mys4AEXte3ls3I69CwSeWC51GLui3VsEP6sZCrWtK8Un5LxyGZDQRsvXIYesNnLw2B3Q==",
+					"SigningCertUrl": "https://sns.ap-northeast-1.amazonaws.com/SimpleNotificationService-7ff5318490ec183fbaddaa2a969abfda.pem",
+					"UnsubscribeUrl": "https://sns.ap-northeast-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:ap-northeast-1:868299292241:kibana-lambda:efa6eb53-ea5d-470b-a9dc-2e786106578c",
+					"MessageAttributes": {}
+				}
+			}
+		]
+	},
+	"responseContext": {
+		"statusCode": 200,
+		"executedVersion": "$LATEST"
+	},
+	"responsePayload": null
+}
