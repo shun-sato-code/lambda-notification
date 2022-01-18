@@ -1,4 +1,4 @@
-{
+ {
 	"version": "1.0",
 	"timestamp": "2021-12-07T23:00:02.769Z",
 	"requestContext": {
@@ -17,7 +17,7 @@
 					"Type": "Notification",
 					"MessageId": "fd7c693c-427d-5f60-a3b2-3315abcd9a41",
 					"TopicArn": "arn:aws:sns:ap-northeast-1:868299292241:kibana-lambda",
-					"Subject": "テスト",
+					"Subject": "kouhindo",
 					"Message": "高頻度ワード \n\n2021-12-07T15:00:00.000Z\nbiglobe 13\nモバイル 5\nビッグローブ 4\n格安sim 4\nsim 3\n\n2021-12-06T15:00:00.000Z\nbiglobe 91\nモバイル 28\nmnp 27\nsim 23\n初月 21\n\n2021-12-05T15:00:00.000Z\nbiglobe 94\nモバイル 30\nmnp 27\nsim 26\n初月 23\n\nKinbanaのアラートから実行\nDestinationはLambda ",
 					"Timestamp": "2021-12-07T23:00:00.261Z",
 					"SignatureVersion": "1",
